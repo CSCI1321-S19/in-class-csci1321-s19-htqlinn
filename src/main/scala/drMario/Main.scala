@@ -15,7 +15,7 @@ object Main extends JFXApp{
       val gc = canvas.graphicsContext2D
       val renderer = new Renderer(gc)
       val board = new Board
-    content = canvas
+    //content = canvas
       
       renderer.render(board)
   }

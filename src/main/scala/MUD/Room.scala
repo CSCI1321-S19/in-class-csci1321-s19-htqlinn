@@ -1,5 +1,0 @@
-package MUD
-
-object Room {
-  
-}
