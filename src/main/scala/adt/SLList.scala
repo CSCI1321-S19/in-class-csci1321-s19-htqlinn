@@ -22,7 +22,7 @@ class SLList[A] extends mutable.Buffer[A]{
   }
   def +=:(elem: A): this.type = ???
   def apply(n: Int): A = {
-    //require()
+    ???
     
   }
   def clear(): Unit = {

@@ -23,8 +23,7 @@ class UnsortedPQ[A:ClassTag](higherP: (A,A) => Boolean) extends PriorityMyQueue[
   def isEmpty: Boolean = front == back
   
   private def highestPriority():A = {
-    
-    
+    ???
   }
   
 }

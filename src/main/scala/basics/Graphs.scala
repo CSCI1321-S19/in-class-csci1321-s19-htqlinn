@@ -57,7 +57,7 @@ object Graphs extends App {
         val tmp2 = arr(start)
         arr(start) = arr(high)
         arr(high) = tmp2
-        helper
+        //helper
       }
     }
     helper(0, arr.length)
